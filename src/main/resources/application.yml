@@ -1,0 +1,7 @@
+# Set microservice name
+spring:
+  application:
+    name: msvc-eureka
+  # Optional configuration with config server is located
+  config:
+    import: optional:configserver:http://localhost:8888
